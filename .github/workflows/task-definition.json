@@ -1,14 +1,13 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:654654264414:task-definition/demo-deploy:3",
+    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:654654264414:task-definition/demo-deploy:6",
     "containerDefinitions": [
         {
             "name": "demo-deploy",
-            "image": "654654264414.dkr.ecr.ap-south-1.amazonaws.com/demo-deploy",
+            "image": "654654264414.dkr.ecr.ap-south-1.amazonaws.com/demo-deploy:fc871eebdae27f0e5bfcffc99c19425986ce82a9",
             "cpu": 0,
             "portMappings": [],
             "essential": true,
             "environment": [],
-            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
             "systemControls": []
@@ -17,7 +16,7 @@
     "family": "demo-deploy",
     "executionRoleArn": "arn:aws:iam::654654264414:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 3,
+    "revision": 6,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -49,7 +48,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-07-09T07:12:40.748Z",
+    "registeredAt": "2024-07-09T07:56:19.140Z",
     "registeredBy": "arn:aws:iam::654654264414:root",
     "tags": []
 }
